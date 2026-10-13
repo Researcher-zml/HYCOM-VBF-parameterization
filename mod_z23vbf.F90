@@ -14,6 +14,12 @@
 #define SEA_V iv(i,j).ne.0
 #define SEA_Q iq(i,j).ne.0
 #endif
+!  Scientific results obtained based on this parameterization scheme and code must cite the following references.
+!
+!    Zhang, J., Zhang, Z., & Qiu, B. (2023).  
+!    Parameterizing Submesoscale Vertical Buoyancy Flux by Simultaneously Considering Baroclinic Instability and 
+!    Strain‐Induced Frontogenesis. Geophysical Research Letters, 50(8), e2022GL102292.
+!*******************************************************************************************************************
       module mod_z23vbf
       use mod_xc    ! HYCOM communication interface
       use mod_pipe  ! HYCOM debugging interface
