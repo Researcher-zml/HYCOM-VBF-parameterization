@@ -14,8 +14,14 @@
 #define SEA_V iv(i,j).ne.0
 #define SEA_Q iq(i,j).ne.0
 #endif
-!  Scientific results obtained based on this parameterization scheme and code must cite the following references.
 !
+!The theoretical development and code implementation of this parameterization scheme were carried out by the research group led by Prof. Zhiwei Zhang at Ocean University of China. 
+!The software copyright is owned by the research team and is protected by applicable laws. Unauthorized use or infringement may result in legal action.
+!For research collaboration or academic inquiries, please contact the code development team at zzw330@ouc.edu.cn. 
+!Please do not distribute the code without prior authorization.
+
+!Any scientific publications or research outcomes based on this parameterization scheme or its associated code must cite the following references.
+!Required References:
 !    Zhang, J., Zhang, Z., & Qiu, B. (2023).  
 !    Parameterizing Submesoscale Vertical Buoyancy Flux by Simultaneously Considering Baroclinic Instability and 
 !    Strain‐Induced Frontogenesis. Geophysical Research Letters, 50(8), e2022GL102292.
